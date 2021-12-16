@@ -756,7 +756,7 @@ rgba(33, 150, 243, 1);
   letter-spacing: 0.03em;
   padding: 63px 24px;
   margin: 0;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: translateY var(--bezier-time);
   background: rgba(33, 150, 243, 0.9);
   color: var(--primary-white-color);
