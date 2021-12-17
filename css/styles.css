@@ -209,7 +209,8 @@ border-bottom: 1px solid #ECECEC;
   padding-top: 200px;
   padding-bottom: 200px;
   background: #C4C4C4;
-  background-image: linear-gradient( rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)), url(../images/hero.jpg);
+  background-image: linear-gradient( rgba(47, 48, 58, 0.5),
+   rgba(47, 48, 58, 0.3)), url(../images/hero.jpg);
   max-width: 1600px;
 }
 
@@ -272,7 +273,8 @@ border-bottom: 1px solid #ECECEC;
   
   background: var(--primary-white-color);
   box-shadow: 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px
+   rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 .close-btn{
@@ -756,19 +758,18 @@ rgba(33, 150, 243, 1);
   letter-spacing: 0.03em;
   padding: 63px 24px;
   margin: 0;
-  transform: translateY(101%);
-  transition: translateY var(--bezier-time);
+  transform: translateY(101%); 
+  transition: transform  var(--bezier-time);
   background: rgba(33, 150, 243, 0.9);
   color: var(--primary-white-color);
 }
 .overlay-text:hover, 
 .overlay-text:focus{
- transform: translateY(0); 
+ transform: translateY(0);
 }
 .card-text-list:hover .overlay-text,
 .card-text-list:focus .overlay-text {
  transform: translateY(0);
  overflow: visible;
- 
+
 }
- 
